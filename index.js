@@ -336,10 +336,23 @@ The function should console.log 50 chunks of HTML code that match the structure 
 
 ‼️ You do **NOT** need to get these to display on your page, but you can copy and paste the result into your HTML file if you'd like to see what that would look like. */
 
-function getHTML(/* Code here */){
-
-    /* Code here */
-
+function getHTML(data){
+    data.forEach((artist) => {
+      const header = document.createElement("div")
+      header.id = artist.name.replace(" ", "-");
+      const imageContainer = document.createElement("div")
+      imageContainer.className = "image";
+      const image = document.createElement("div");
+      // idk how to do the painting link ofr all of them
+      image.src = `https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/starry-night-by-vincent-van-gogh-vincent-van-gogh.jpg`
+      const nameContainer = document.createElement("div");
+      nameContainer.className = "name";
+      const name = document.createElement("a");
+      name.href = artist.wikipedia;
+      name.innerHTML = artist.name;
+      const bio = document.createElement("div");
+      bio.innerHTML = artist.bio;
+    })
   }
 
 
