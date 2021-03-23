@@ -370,7 +370,7 @@ function randomize(array){
 
  /* 💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪
  Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
-
+const artists1900 = artists.fi
  
  
  
