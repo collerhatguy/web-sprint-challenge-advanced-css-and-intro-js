@@ -285,7 +285,8 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(artists){
-    artist.push({ 
+    
+    return artists.push({ 
       id: 20,
       name: "Jacob SHomali", 
       years: "2000 - march 22nd 2021",
@@ -293,7 +294,6 @@ function addArtist(artists){
       nationality: "Palestinian",
       bio: "like peanut butter and manga"
     })
-    return artists;
   }
 
   
@@ -370,7 +370,9 @@ function randomize(array){
 
  /* 💪💪💪💪💪💪 STRETCH 3: 💪💪💪💪💪💪
  Use advanced array methods (.map, .reduce, .filer) to refactor your MVP code (create an array of all artists born in the 1900s with .filter, for example) */
-const artists1900 = artists.fi
+const artists1900 = artists.filter(artist => {
+  return parseInt(artist.years.substring(0,4)) <= 1999 && parseInt(artist.years.substring(0,4)) >= 1900;
+})
  
  
  
