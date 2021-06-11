@@ -265,7 +265,7 @@ function get20s(array){
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(array, arrayIndex){
-   array.splice(arrayIndex);
+   array.splice(arrayIndex, 1);
    return array.length;
 }
    
@@ -287,8 +287,7 @@ Use addArtist to do the following:
 Example: addArtist(artists) should return the artists array with the above object added to the end of the array. */
 
 function addArtist(artists){
-    
-    return artists.push({ 
+    artists.push({ 
       id: 20,
       name: "Jacob SHomali", 
       years: "2000 - march 22nd 2021",
@@ -296,6 +295,7 @@ function addArtist(artists){
       nationality: "Palestinian",
       bio: "like peanut butter and manga"
     })
+    return artists;
   }
 
   
@@ -312,8 +312,8 @@ function lotsOfArt(artists) {
   artists.forEach(artist => {
     if (artist.paintings > 100) alotOfArt.push(artist);
   })
-  console.log(alotOfArt.length)
-  return alotOfArt;
+  const names = alotOfArt.map(artist => artist.name)
+  return names;
 }
 
 
