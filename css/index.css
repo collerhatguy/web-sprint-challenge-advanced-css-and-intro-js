@@ -144,7 +144,7 @@ button:hover{
         width: 80%;
     }
     .artist {
-        width: 90%;
+        width: 70%;
     }
     .title-container div {
         width: 100%;
@@ -152,5 +152,7 @@ button:hover{
     .title-container hr {
         width: 100%;
     }
-    
+    .artist img {
+        height: 20rem;
+    }
 }
