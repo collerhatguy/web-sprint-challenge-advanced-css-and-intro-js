@@ -24,16 +24,16 @@ Commit your code regularly and meaningfully.
 Please answer the following questions below, you may edit the readme file to include your answers below the question.
 
 1. How would you describe acessibility on the web to someone new to programming?
-more acessibility is good even for people who don't need it currently as it is possible that they will need it in the future and therefore should be conciously planned for in advance. 
+More acessibility is good even for people who don't need it currently, because it is possible that they will need it in the future and thus should be conciously planned for in advance. 
 
 2. Talk about 3 different things you can do to ensure your website is accessible. 
-you can use semantic html so that screen readers can properly navigate the site. you may use rem units instead of px so that people may adjust the font sizes as needed. finally you may use proper contrast between font and background colors so that your site is legible.
+You can use semantic html so that screen readers can properly navigate the site. You may use REM instead of PX units so that people may adjust the font sizes as needed. Finally you may use proper contrast between font and background colors so that your site is legible and even stay away from colors that color-blind people have a hard time distinguishing.
 
 3. How would you explain the concept of a variable to someone new to programming?
-a variable is a place where you store information with a label so that you may refernece it later.
+A variable is a place where you store information with a label so that you may refernece it later.
 
 4. What is the purpose of using functions in code?
-functions are designed so that bits of code can be reuesed as needed and so that developers don't need to copy and paste the same lines over and over while bloating their files.
+Functions are designed so that bits of code can be reuesed as needed, and so that developers don't need to copy and paste the same lines over and over while bloating their files.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
